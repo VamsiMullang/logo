@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #383533;
+}
+
+.diamond-container {
+  width: 180px;
+  height: 180px;
+  background: transparente;
+  border-right-color: #d9ded7;
+  border-left-color: #94f075;
+  border-top-color: #eb6c0c;
+  border-bottom-color: #2b9ced;
+  border-style: solid;
+  border-width: 18px;
+  position: relative;
+  transform: rotate(50deg);
+  overflow: hidden;
+}
+
+.diamond-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-50deg);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+}
+
+.diamond-content p {
+  margin: 0;
+  font-size: 26px;
+  color: white;
+}
+
+.end {
+  color: orange;
+}
+.para {
+  font-weight: lighter;
+  font-size: 11px !important;
+}
